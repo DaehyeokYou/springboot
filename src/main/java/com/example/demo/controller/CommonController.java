@@ -8,17 +8,22 @@ public class CommonController {
     
 	@RequestMapping("/")
     public String root_test() throws Exception{
-        return "Hello!";
+        return "Root!";
     }
 	
     @RequestMapping("/js")
     public String js_test() throws Exception{
-        return "Hello jisoo";
+        return "Jisoo";
     }
  
     @RequestMapping("/dh")
     public String dh_test() throws Exception{
-        return "Hello daehyeok";
+        return "Daehyeok";
+    }
+    
+    @RequestMapping("/jt")
+    public String jt_test() throws Exception{
+        return "Jitae";
     }
  
 }
